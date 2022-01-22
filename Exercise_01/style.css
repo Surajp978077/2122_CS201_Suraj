@@ -1,0 +1,82 @@
+span
+{
+    font-size: 1em;
+    font-weight:light;
+    color: grey;
+    
+
+}
+.tick
+{
+    color: teal;
+}
+.greendotul
+{
+    
+    text-decoration: underline teal dashed;
+    text-underline-offset: 3px;
+}
+.yellowbox
+{
+    font-size: 70%;
+    text-align: center;
+    text-transform: none;
+    position: absolute;
+    left: 24.4%;
+    right: 52%;
+    margin-top: 0px;
+    background-color: gold;
+    border: 8px solid gold;
+}
+button
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 96%;
+    font-weight: bold;
+    border: none;
+}
+div
+{
+    /* background-color: lightpink; */
+    width: 24%;
+    float: left;
+    padding-left:2%;
+    padding-right:2%;
+    border: solid 1px;
+    border-color: lightgrey;
+    box-sizing: border-box;
+}
+h1
+{
+    font-size: 200%;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: lighter;
+
+}
+
+sup
+{
+    font-weight: lighter;
+    font-size: 50%;
+}
+.money
+{
+    color: black;
+    font-size: 200%;
+    font-weight:bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.question
+{
+    color: teal;
+    font-weight: bold;
+
+}
+
+button
+{
+    background-color: teal;
+    color: white;
+    
+}
