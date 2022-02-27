@@ -1,0 +1,89 @@
+body{
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+    color: black;
+    background-color: #f9f7f1;
+}
+header{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+
+}
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+    position: relative;
+
+
+}
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px dashed black;
+    border-top: 2px dashed black;
+    padding: 12px 0 12px 0;
+
+}
+
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    display: inline-block;
+    margin: 30px 2% 0 2%;
+
+
+}
+
+
+.collumn{
+    font-size: 14px;
+    line-height: 20px;
+    width: 17.5%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+.collumn + .collumn { 
+  border-left: 1px solid black;
+}
+.collumn .headline{
+    text-align: center;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.media {
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) and (orientation:landscape){
+    .collumn{
+        width: 45%;
+    }
+}
+
+    @media (orientation: portrait){
+    .collumn{
+        width: 100%;
+    }
+
+}
